@@ -168,8 +168,8 @@ header {
         padding: 0px;
         border: 1px solid #cccc33;
         border-radius: 7pt;
-        background-color: #f3f3f3;
-        flex: 3 1 60%;
+        background-color: #ffffff;
+        flex: 3 1 40%;
         order: 2;
     }
 
@@ -179,7 +179,7 @@ header {
         border: 1px solid #8888bb;
         border-radius: 7pt;
         background: #ffffff;
-        flex: 1 6 20%;
+        flex: 1 6 40%;
         order: 1;
     }
   
@@ -188,7 +188,7 @@ header {
         padding: 0px;
         border: 1px solid #8888bb;
         border-radius: 7pt;
-        background: #ffffff;
+        background: #f3f3f3;
         flex: 1 6 20%;
         order: 3;
     }
@@ -208,7 +208,7 @@ header {
   
         #main > nav, #main > aside, header, footer {
             min-height: 50px;
-            max-height: 50px;
+            max-height: 50000px;
         }
     }
 
