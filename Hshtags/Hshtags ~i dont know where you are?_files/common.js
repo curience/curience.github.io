@@ -1,1 +1,0 @@
-requirejs.config({baseUrl:"/webroot/js/vendors",paths:{app:"../require/app"},shim:{flexslider:{deps:["jquery"],exports:"flexslider"},isotope:{deps:["jquery"],exports:"isotope"},timeago:{deps:["jquery"],exports:"timeago"}}});

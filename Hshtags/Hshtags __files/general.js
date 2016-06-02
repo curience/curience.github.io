@@ -1,1 +1,0 @@
-"use strict";var general_controllers=angular.module("general.controllers",[]);general_controllers.controller("GeneralCtrl",["$scope","$rootScope","loggedInUser",function(e,r){r.page_icon="general-icon"}]);
