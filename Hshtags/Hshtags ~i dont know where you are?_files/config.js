@@ -1,0 +1,1 @@
+define({baseUrl:window.location.protocol+"//"+window.location.host,apiUrl:"//api.hshtags.com/v1",win:$(window),winW:$(window).width(),winH:$(window).height(),touchEnabled:!1,scrollPaused:!1,headerH:$(".ctgry-nav").height(),bodyCont:$("body"),bodySTop:$("body").scrollTop(),overlay:$(".overlay"),module:$(".module"),moduleOpen:!1,htgSave:$(".htg-save"),htgCancel:$(".htg-cancel")});
