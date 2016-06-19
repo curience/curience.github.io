@@ -1,0 +1,73 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/06/2016 07:56
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-architect:before { content: "\f100"; }
+.flaticon-art:before { content: "\f101"; }
+.flaticon-coins:before { content: "\f102"; }
+.flaticon-computer:before { content: "\f103"; }
+.flaticon-engineering:before { content: "\f104"; }
+.flaticon-fashion:before { content: "\f105"; }
+.flaticon-founder:before { content: "\f106"; }
+.flaticon-health:before { content: "\f107"; }
+.flaticon-hotel:before { content: "\f108"; }
+.flaticon-law:before { content: "\f109"; }
+.flaticon-management:before { content: "\f10a"; }
+.flaticon-pharmacy:before { content: "\f10b"; }
+.flaticon-plane:before { content: "\f10c"; }
+.flaticon-rocket:before { content: "\f10d"; }
+.flaticon-science:before { content: "\f10e"; }
+.flaticon-teacher:before { content: "\f10f"; }
+.flaticon-television:before { content: "\f110"; }
+    
+    $font-Flaticon-architect: "\f100";
+    $font-Flaticon-art: "\f101";
+    $font-Flaticon-coins: "\f102";
+    $font-Flaticon-computer: "\f103";
+    $font-Flaticon-engineering: "\f104";
+    $font-Flaticon-fashion: "\f105";
+    $font-Flaticon-founder: "\f106";
+    $font-Flaticon-health: "\f107";
+    $font-Flaticon-hotel: "\f108";
+    $font-Flaticon-law: "\f109";
+    $font-Flaticon-management: "\f10a";
+    $font-Flaticon-pharmacy: "\f10b";
+    $font-Flaticon-plane: "\f10c";
+    $font-Flaticon-rocket: "\f10d";
+    $font-Flaticon-science: "\f10e";
+    $font-Flaticon-teacher: "\f10f";
+    $font-Flaticon-television: "\f110";
