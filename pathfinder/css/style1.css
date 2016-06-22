@@ -66,7 +66,7 @@ body {
     font-weight: lighter;
     color: #fff;
     text-align: center;
-    background-color: #ee660f;
+    background-color: rgb(59, 173, 255);
     font-size: 100%;
     height: 100%;
     -webkit-font-smoothing: antialiased
@@ -253,7 +253,7 @@ figcaption {
     height: 50px;
     line-height: 45px;
     display: inline-block;
-    color: #ee660f;
+    color: rgb(59, 173, 255);
     background-color: transparent;
     border: 2px solid #fff;
     cursor: pointer;
@@ -351,8 +351,8 @@ form textarea {
     width: 100%;
     padding: 20px 30px;
     z-index: 9999;
-    border-top: solid 1px #db5b0a;
-    background-color: #ee660f
+    border-top: solid 1px rgb(59, 153, 255);
+    background-color: rgb(59, 173, 255)
 }
 
 @media all and (max-width: 767px) {
@@ -519,7 +519,7 @@ body.receiving .header .credit-cta {
     left: 0;
     width: 0;
     height: 0;
-    background-color: #db5b0a;
+    background-color: rgb(59, 153, 255);
     z-index: 100
 }
 
@@ -528,8 +528,8 @@ body.receiving .header .credit-cta {
     height: 250px;
     float: left;
     position: relative;
-    border-top: 1px solid #db5b0a;
-    border-left: 1px solid #db5b0a;
+    border-top: 1px solid rgb(59, 153, 255);
+    border-left: 1px solid rgb(59, 153, 255);
     cursor: pointer;
     overflow: hidden
 }
@@ -585,7 +585,7 @@ body.receiving .header .credit-cta {
 }
 
 .intro-screen .tile.title {
-    background-color: #db5b0a
+    background-color: rgb(59, 153, 255)
 }
 
 .intro-screen .tile.title .text {
@@ -667,7 +667,7 @@ body.receiving .header .credit-cta {
 }
 
 .intro-screen .tile:hover {
-    background-color: #db5b0a
+    background-color: rgb(59, 153, 255)
 }
 
 .intro-screen .tile:hover .icon {
@@ -701,7 +701,7 @@ body.receiving .header .credit-cta {
 }
 
 .intro-screen.receiving .tile.message-to-from {
-    background-color: #db5b0a
+    background-color: rgb(59, 153, 255)
 }
 
 .intro-screen.receiving .tile.message-to-from h3 {
@@ -857,7 +857,7 @@ body.receiving .header .credit-cta {
 }
 
 .screen-title.send .pboldup,.screen-title.send a:link,.screen-title.send a:visited {
-    color: #ee660f
+    color: rgb(59, 173, 255)
 }
 
 @media all and (min-width: 768px) and (max-width:1023px) {
