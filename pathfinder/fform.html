@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="theme-color" content="#0f0f0f" />
+	
+	<link rel="icon"  href="images/favicon.png" />
+
+	<meta name="Description" content="Pathfinder- Search for Career Paths, College Options, Scholarships, Internships and much more...">
+	<meta name="keywords" content="pathfinder, career paths, college advice, paths, college options, career advice">
+	
+	<title>Pathfinder</title>
+
+	<meta name="description" content="Pathfinder: Choose the right path; Courses &amp; Colleges" />
+
+
+	<link href="./css/normalize.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="./css/mobilemenu.css">
+	<link rel="stylesheet" href="./css/fform.css">
+	<link rel="stylesheet" href="./css/component.css">
+
+	<script src="./js/modernizr.custom.js"></script>
+</head>
+
+<body id="top">
+
+
+<div class="htop">
+	<header>
+
+		<div class="mobile-menu" id="menuLink">
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+
+		<nav main-nav class="site-nav" id="menu" >
+			<div class="overflow-wrapper">
+				<div class="absolute-wrapper">
+					<ul class="main-nav">
+
+						<div class="banner-form">
+							<br>
+
+							<div class="search-mobile">
+								<form id="searchform-mobile"> 
+									<button class="search-button" type="submit" value="Search" id="search_button" name="search_button">
+										<i class="fa fa-search"></i>
+									</button> 
+									<input type="text" id="s-mobile" name="s" placeholder="Search Colleges &amp; Universities" id="keyword" name="keyword" class="keyword" title="Search" style="float: left;"> 
+								</form>
+							</div>
+	               		</div>
+
+
+						<li class="marker">Links</li>
+
+						<li>
+							<a href="/coaching">
+								<span class="nav-text">Coaching/Academy</span>
+							</a>
+						</li>
+						<li>
+							<a href="/scholarship">
+								<span class="nav-text">Scholarship/Grants</span>
+							</a>
+						</li>
+						<li>
+							<a href="/online">
+								<span class="nav-text">Online</span>
+							</a>
+						</li>
+						<li>
+							<a href="/auditions">
+								<span class="nav-text">Auditions</span>
+							</a>
+						</li>
+						<li>
+							<a href="/competitions">
+								<span class="nav-text">Competitions</span>
+							</a>
+						</li>
+						<li>
+							<a href="/exams">
+								<span class="nav-text">Exams</span>
+							</a>
+						</li>
+
+
+						
+						<li class="marker">Account</li>
+						<li>
+							<a href="/home">
+								<span class="nav-text">Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="/account/settings">
+								<span class="nav-text">Settings</span>
+							</a>
+						</li>
+						<li>
+							<a href="/account/login">
+								<span class="nav-text">Log In</span>
+							</a>
+						</li>
+
+
+
+						<li class="marker"><span>© Pathfinder 2016</span></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+</div>
+
+	<div class="container">
+		<aside class="theader">
+			<h1>
+				Pathfinder
+				<span>Tell me about yourself</span>
+			</h1>
+		</aside>
+
+		<section>
+				
+
+				<form class="ac-custom ac-radio ac-fill" autocomplete="off">
+					<h2>What describes you best?</h2>
+					<ul>
+						<li><input id="r1" name="r1" type="radio"><label for="r1">School (9th-10th)</label></li>
+						<li><input id="r2" name="r1" type="radio"><label for="r2">School (11th-12th)</label></li>
+						<li><input id="r3" name="r1" type="radio"><label for="r3">College</label></svg></li>
+						<li><input id="r4" name="r1" type="radio"><label for="r4">Job</label></li>
+					</ul>
+
+					<button class="progress-button" data-style="fill" data-horizontal=""><span class="content">Submit</span><span class="progress"><span class="progress-inner"></span></span></button>
+
+
+				</form>
+			
+					
+
+			
+			
+			
+			
+
+
+			</section>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script src="./js/classie.js"></script>
+		<script src="./js/progressButton.js"></script>
+		<script>
+			[].slice.call( document.querySelectorAll( 'button.progress-button' ) ).forEach( function( bttn ) {
+				new ProgressButton( bttn, {
+					callback : function( instance ) {
+						var progress = 0,
+							interval = setInterval( function() {
+								progress = Math.min( progress + Math.random() * 0.1, 1 );
+								instance._setProgress( progress );
+
+								if( progress === 1 ) {
+									instance._stop(1);
+									clearInterval( interval );
+								}
+							}, 200 );
+					}
+				} );
+			} );
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script src="js/svgcheckbx.js"></script>
+
+		
+
+
+
+<script>
+
+
+(function (window, document) {
+
+    var menu     = document.getElementById('menu'),
+        menuLink = document.getElementById('menuLink');
+
+    function toggleClass(element, className) {
+        var classes = element.className.split(/\s+/),
+            length = classes.length,
+            i = 0;
+
+        for(; i < length; i++) {
+          if (classes[i] === className) {
+            classes.splice(i, 1);
+            break;
+          }
+        }
+        // The className is not found
+        if (length === classes.length) {
+            classes.push(className);
+        }
+
+        element.className = classes.join(' ');
+    }
+
+    menuLink.onclick = function (e) {
+        var open = 'open';
+
+        e.preventDefault();
+        toggleClass(menu, open);
+        toggleClass(menuLink, open);
+    };
+
+}(this, this.document));
+
+</script>
+
+
+
+
+
+<div id="go-to-top" style="background-color: #7f7f7f;color: #FFF;padding-left: 11px;padding-right: 11px;padding-bottom: 2px;margin-bottom: 10px;border-radius: 8px;position: fixed;bottom: 0%;right: 11px;opacity: 0.3;text-align: center;" alt="Top of Page"><a href="#top">↑</a></div>
+
+
+</body>
+</html>
